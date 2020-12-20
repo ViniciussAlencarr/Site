@@ -99,7 +99,7 @@ p,
     font-weight: 800;
     color: #fff;
     text-transform: uppercase;
-    font-size: 5rem
+    font-size: 5rem;
 }
 .containerBox p {
     color: #fff;
@@ -365,5 +365,7 @@ footer {
         padding: 40px 0;
     }
 }
+
+
 
 
