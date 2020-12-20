@@ -303,6 +303,67 @@ footer {
     color: #fff;
 
 }
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+@media (max-width: 992px) {
+    .navbar-light .navbar-toggler {
+        background: #fff;
+        border-radius: 0;
+    }
+    .banner {
+        min-height: 100vh;
+        padding: 100px 0;
 
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .sec1 {
+        padding: 20px 0;
+    }
+    .headerText h2 {
+        font-size: 2rem;
+        color: #fff;
+    }
+    .blog {
+        
+        padding: 20px 0;
+    }
+    .blogpost .imgBx {
+        height: 200px;
+    }
+    .contact {
+        position: relative;
+        padding: 20px 0;
+        background: url(Imagens/2º_pacote_de_imagens/img05.jpg);
+        background-size: cover;
+        min-height: 145vh;
+    }
+    .contact .form-control {
+        height: 40px;
+        border: 1px solid #fff;
+    }
+    .btnD1 {
+        padding: 10px 40px;
+        margin-top: 10px;
+    }
+    footer {
+        background: #000;
+        padding: 0px 0 20;
+    }
+    .sci li {
+        list-style: none;
+        margin: 0 20px;
+    }
+    .sec2 {
+        height: auto;
+        padding: 40px 0;
+    }
+}
 
 
